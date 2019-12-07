@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddRoom	Maze.cpp	/^void Maze::AddRoom(Room *room)$/;"	f	class:Maze
+BOMBED_MAZEFACTORY_H	BombedMazeFactory.h	2;"	d
+BOMBED_WALL_H	BombedWall.h	2;"	d
+BombedMazeFactory	BombedMazeFactory.h	/^class BombedMazeFactory : public MazeFactory {$/;"	c
+BombedMazeGame	BombedMazeGame.cpp	/^BombedMazeGame::BombedMazeGame()$/;"	f	class:BombedMazeGame
+BombedMazeGame	BombedMazeGame.h	/^class BombedMazeGame : public MazeGame {$/;"	c
+BombedWall	BombedWall.cpp	/^BombedWall::BombedWall () : Wall()$/;"	f	class:BombedWall
+BombedWall	BombedWall.cpp	/^BombedWall::BombedWall(const BombedWall& other) : Wall(other)$/;"	f	class:BombedWall
+BombedWall	BombedWall.h	/^class BombedWall : public Wall {$/;"	c
+BuildDoor	MazeBuilder.h	/^    virtual void BuildDoor(int, int) { }$/;"	f	class:MazeBuilder
+BuildMaze	MazeBuilder.h	/^    virtual void BuildMaze() { }$/;"	f	class:MazeBuilder
+BuildRoom	MazeBuilder.h	/^    virtual void BuildRoom(int) { }$/;"	f	class:MazeBuilder
+CAST_SPELL_H	CastSpell.h	2;"	d
+CastSpell	CastSpell.h	/^class CastSpell : public Spell {$/;"	c
+CastSpell	EnchantedMazeFactory.cpp	/^Spell* EnchantedMazeFactory::CastSpell() const$/;"	f	class:EnchantedMazeFactory
+Clone	BombedWall.cpp	/^Wall* BombedWall::Clone () const$/;"	f	class:BombedWall
+Clone	Door.cpp	/^Door* Door::Clone () const$/;"	f	class:Door
+Clone	Maze.cpp	/^Maze* Maze::Clone() const {$/;"	f	class:Maze
+Clone	Room.cpp	/^Room* Room::Clone() const {$/;"	f	class:Room
+Clone	Wall.cpp	/^Wall* Wall::Clone() const$/;"	f	class:Wall
+CreateComplexMaze	MazeGame.cpp	/^Maze* MazeGame::CreateComplexMaze(MazeBuilder& builder) {$/;"	f	class:MazeGame
+CreateMaze	MazeGame.cpp	/^Maze* MazeGame::CreateMaze() {$/;"	f	class:MazeGame
+CreateMaze	MazeGame.cpp	/^Maze* MazeGame::CreateMaze(MazeBuilder& builder) {$/;"	f	class:MazeGame
+CreateMaze	MazeGame.cpp	/^Maze* MazeGame::CreateMaze(MazeFactory& factory) {$/;"	f	class:MazeGame
+DOOR_H	Door.h	2;"	d
+DOOR_NEEDING_SPELL_H	DoorNeedingSpell.h	2;"	d
+Direction	MazeParts.h	/^enum Direction {North, South, East, West};$/;"	g
+Door	Door.cpp	/^Door::Door ()$/;"	f	class:Door
+Door	Door.cpp	/^Door::Door (const Door& other)$/;"	f	class:Door
+Door	Door.cpp	/^Door::Door(Room* r1, Room* r2)$/;"	f	class:Door
+Door	Door.h	/^class Door : public MapSite {$/;"	c
+DoorNeedingSpell	DoorNeedingSpell.cpp	/^DoorNeedingSpell::DoorNeedingSpell(Room* r1, Room* r2)$/;"	f	class:DoorNeedingSpell
+DoorNeedingSpell	DoorNeedingSpell.h	/^class DoorNeedingSpell : public Door {$/;"	c
+ENCHANTED_MAZE_FACTORY_H	EnchantedMazeFactory.h	2;"	d
+ENCHANTED_ROOM_H	EnchantedRoom.h	2;"	d
+East	MazeParts.h	/^enum Direction {North, South, East, West};$/;"	e	enum:Direction
+EnchantedMazeFactory	EnchantedMazeFactory.cpp	/^EnchantedMazeFactory::EnchantedMazeFactory()$/;"	f	class:EnchantedMazeFactory
+EnchantedMazeFactory	EnchantedMazeFactory.h	/^class EnchantedMazeFactory : public MazeFactory {$/;"	c
+EnchantedMazeGame	EnchantedMazeGame.h	/^class EnchantedMazeGame : public MazeGame {$/;"	c
+EnchantedRoom	EnchantedRoom.cpp	/^EnchantedRoom::EnchantedRoom(int n, Spell* spell)$/;"	f	class:EnchantedRoom
+EnchantedRoom	EnchantedRoom.h	/^class EnchantedRoom : public Room {$/;"	c
+Enter	Door.cpp	/^void Door::Enter()$/;"	f	class:Door
+Enter	Room.cpp	/^void Room::Enter()$/;"	f	class:Room
+Enter	Wall.cpp	/^void Wall::Enter()$/;"	f	class:Wall
+GetMaze	MazeBuilder.h	/^    virtual Maze* GetMaze() { return 0; }$/;"	f	class:MazeBuilder
+GetRoomNumber	Room.cpp	/^int Room::GetRoomNumber()$/;"	f	class:Room
+HasBomb	RoomWithABomb.cpp	/^bool RoomWithABomb::HasBomb()$/;"	f	class:RoomWithABomb
+Initialize	Door.cpp	/^void Door::Initialize (Room* r1, Room* r2)$/;"	f	class:Door
+Instance	MazeFactory.cpp	/^MazeFactory* MazeFactory::Instance () {$/;"	f	class:MazeFactory
+MAP_SITE_H	MapSite.h	2;"	d
+MAZE_BUILDER_H	MazeBuilder.h	2;"	d
+MAZE_FACTORY_H	MazeFactory.h	2;"	d
+MAZE_GAME_H	MazeGame.h	2;"	d
+MAZE_H	Maze.h	2;"	d
+MAZE_PARTS_H	MazeParts.h	2;"	d
+MakeDoor	EnchantedMazeFactory.h	/^    virtual Door* MakeDoor(Room* r1, Room* r2)  const$/;"	f	class:EnchantedMazeFactory
+MakeDoor	EnchantedMazeGame.h	/^    virtual Door* MakeDoor(Room* r1, Room* r2) const$/;"	f	class:EnchantedMazeGame
+MakeDoor	MazeFactory.cpp	/^Door* MazeFactory::MakeDoor(Room* r1, Room* r2) const$/;"	f	class:MazeFactory
+MakeDoor	MazeGame.h	/^    virtual Door* MakeDoor(Room* r1, Room* r2) const$/;"	f	class:MazeGame
+MakeMaze	MazeFactory.cpp	/^Maze* MazeFactory::MakeMaze() const$/;"	f	class:MazeFactory
+MakeMaze	MazeGame.h	/^    virtual Maze* MakeMaze() const$/;"	f	class:MazeGame
+MakeRoom	BombedMazeFactory.cpp	/^Room* BombedMazeFactory::MakeRoom(int n) const {$/;"	f	class:BombedMazeFactory
+MakeRoom	BombedMazeGame.h	/^    virtual Room* MakeRoom(int n) const$/;"	f	class:BombedMazeGame
+MakeRoom	EnchantedMazeFactory.h	/^    virtual Room* MakeRoom(int n)  const$/;"	f	class:EnchantedMazeFactory
+MakeRoom	EnchantedMazeGame.h	/^    virtual Room* MakeRoom(int n) const$/;"	f	class:EnchantedMazeGame
+MakeRoom	MazeFactory.cpp	/^Room* MazeFactory::MakeRoom(int n) const$/;"	f	class:MazeFactory
+MakeRoom	MazeGame.h	/^    virtual Room* MakeRoom(int n) const$/;"	f	class:MazeGame
+MakeWall	BombedMazeFactory.cpp	/^Wall* BombedMazeFactory::MakeWall () const {$/;"	f	class:BombedMazeFactory
+MakeWall	BombedMazeGame.h	/^    virtual Wall* MakeWall() const$/;"	f	class:BombedMazeGame
+MakeWall	MazeFactory.cpp	/^Wall* MazeFactory::MakeWall() const$/;"	f	class:MazeFactory
+MakeWall	MazeGame.h	/^    virtual Wall* MakeWall() const$/;"	f	class:MazeGame
+MapSite	MapSite.h	/^class MapSite {$/;"	c
+Maze	Maze.cpp	/^Maze::Maze()$/;"	f	class:Maze
+Maze	Maze.h	/^class Maze {$/;"	c
+MazeBuilder	MazeBuilder.cpp	/^MazeBuilder::MazeBuilder()$/;"	f	class:MazeBuilder
+MazeBuilder	MazeBuilder.h	/^class MazeBuilder {$/;"	c
+MazeFactory	MazeFactory.cpp	/^MazeFactory::MazeFactory()$/;"	f	class:MazeFactory
+MazeFactory	MazeFactory.h	/^class MazeFactory {$/;"	c
+MazeGame	MazeGame.h	/^class MazeGame {$/;"	c
+North	MazeParts.h	/^enum Direction {North, South, East, West};$/;"	e	enum:Direction
+ROOM_H	Room.h	2;"	d
+ROOM_WITH_A_BOMB_H	RoomWithABomb.h	2;"	d
+Room	Room.cpp	/^Room::Room(int n)$/;"	f	class:Room
+Room	Room.h	/^class Room : MapSite {$/;"	c
+RoomNo	Maze.cpp	/^Room* Maze::RoomNo(int n) const  $/;"	f	class:Maze
+RoomWithABomb	RoomWithABomb.cpp	/^RoomWithABomb::RoomWithABomb(const RoomWithABomb& other)$/;"	f	class:RoomWithABomb
+RoomWithABomb	RoomWithABomb.cpp	/^RoomWithABomb::RoomWithABomb(int n, bool bombed)$/;"	f	class:RoomWithABomb
+RoomWithABomb	RoomWithABomb.h	/^class RoomWithABomb : public Room {$/;"	c
+SPELL_H	Spell.h	2;"	d
+SetSide	Room.cpp	/^void Room::SetSide(Direction direction, MapSite* ms)$/;"	f	class:Room
+South	MazeParts.h	/^enum Direction {North, South, East, West};$/;"	e	enum:Direction
+Spell	Spell.h	/^class Spell {$/;"	c
+WALL_H	Wall.h	2;"	d
+Wall	Wall.cpp	/^Wall::Wall()$/;"	f	class:Wall
+Wall	Wall.cpp	/^Wall::Wall(Wall const&)$/;"	f	class:Wall
+Wall	Wall.h	/^class Wall : public MapSite {$/;"	c
+West	MazeParts.h	/^enum Direction {North, South, East, West};$/;"	e	enum:Direction
+_bomb	BombedWall.h	/^    bool _bomb;$/;"	m	class:BombedWall
+_bomb	RoomWithABomb.h	/^    bool _bomb;$/;"	m	class:RoomWithABomb
+_instance	MazeFactory.cpp	/^MazeFactory* MazeFactory::_instance = 0;$/;"	m	class:MazeFactory	file:
+_instance	MazeFactory.h	/^    static MazeFactory* _instance;$/;"	m	class:MazeFactory
+_room1	Door.h	/^    Room* _room1;$/;"	m	class:Door
+_room2	Door.h	/^    Room* _room2;$/;"	m	class:Door
+_roomNumber	Room.h	/^    int _roomNumber;$/;"	m	class:Room
+_sides	Room.h	/^    MapSite* _sides[4];$/;"	m	class:Room
+_spell	EnchantedRoom.h	/^    Spell* _spell;$/;"	m	class:EnchantedRoom
+mRoomVec	Maze.h	/^  std::vector<Room*> *mRoomVec; $/;"	m	class:Maze
+main	main.cpp	/^int main()$/;"	f
